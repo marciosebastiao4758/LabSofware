@@ -1,0 +1,7 @@
+
+        /* Estilo inicial: a div está oculta */
+        #mensagem {
+            display: none;
+            color: green;
+            font-weight: bold;
+        }

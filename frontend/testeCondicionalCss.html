@@ -2,34 +2,12 @@
 <html>
 <head>
     <title>Exemplo Condicional JS</title>
-    <style>
-        /* Estilo inicial: a div está oculta */
-        #mensagem {
-            display: none;
-            color: green;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="teste.css">
 </head>
 <body>
 
     <button id="meuBotao" onclick="alternarExibicao()">Minha_Ação</button>
     <p id="mensagem">Olá! Eu fui exibido condicionalmente!</p>
-
-    <script>
-        function alternarExibicao() {
-            // 1. Obtém a referência do elemento
-            var elemento = document.getElementById("mensagem");
-
-            // 2. Verifica o estado atual com IF
-            if (elemento.style.display === "none" || elemento.style.display === "") {
-                // 3. Ação se a condição for verdadeira (oculto) -> Exibe
-                elemento.style.display = "block";
-            } else {
-                // 4. Ação se a condição for falsa (visível) -> Oculta
-                elemento.style.display = "none";
-            }
-        }
-    </script>
+    <script src="teste.js"></script>
 </body>
 </html>
